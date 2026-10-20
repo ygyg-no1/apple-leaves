@@ -1,0 +1,13 @@
+# 本地检测数据集（标注为 YOLO txt：class cx cy w h，坐标相对图像宽高 0~1）
+# 用法示例：yolo detect train data=datasets/data.yaml model=yolov13n.pt
+path: .
+train: images/train
+val: images/val
+test:
+
+nc: 4
+names:
+  0: Apple__BlackRot
+  1: Apple__CedarRust
+  2: Apple__Healthy
+  3: Apple__Scab

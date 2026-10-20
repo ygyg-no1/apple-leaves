@@ -1,0 +1,12 @@
+# 桌面端 + 训练/推理的基础依赖
+ultralytics>=8.3.0
+torch>=2.1
+torchvision>=0.16
+opencv-python>=4.9
+PySide6>=6.6
+numpy>=1.26
+matplotlib>=3.8
+PyYAML>=6.0
+requests>=2.31
+# 打包（可选）
+pyinstaller>=6.0

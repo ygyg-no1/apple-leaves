@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 运行期数据（含账号、设置、历史记录、导出结果）----
+desktop_app/.local_data/
+desktop_app_output/
+uploads/
+history/
+*.log
+
+# ---- 训练与推理产物 ----
+runs/
+dist/
+build/
+build_exe_work/
+*.spec
+
+# ---- 数据集（体积过大，不随仓库分发）----
+datasets/images/
+datasets/labels/
+datasets/**/*.jpg
+datasets/**/*.png
+
+# ---- 权重：只保留仓库自带的那一个 ----
+*.pt
+!models/apple_leaf_best.pt
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
